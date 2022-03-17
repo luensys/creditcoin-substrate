@@ -1,0 +1,27 @@
+{
+  "name": "creditcoin-substrate-integration-tests",
+  "version": "1.0.0",
+  "description": "Integration tests for Creditcoin Substrate node",
+  "scripts": {
+    "test": "polkadot-dev-run-test --forceExit --runInBand",
+    "lint": "polkadot-dev-run-lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gluwa/creditcoin-substrate.git"
+  },
+  "author": "Alex Todorov",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/gluwa/creditcoin-substrate/issues"
+  },
+  "homepage": "https://github.com/gluwa/creditcoin-substrate#readme",
+  "packageManager": "yarn@3.2.0",
+  "dependencies": {
+    "@polkadot/api": "^7.12.1",
+    "@polkadot/dev": "^0.65.95"
+  },
+  "resolutions": {
+    "typescript": "^4.6.2"
+  }
+}
