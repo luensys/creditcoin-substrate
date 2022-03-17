@@ -3940,6 +3940,7 @@ dependencies = [
  "hex",
  "lexical",
  "log",
+ "more-asserts",
  "pallet-balances",
  "pallet-timestamp",
  "parity-scale-codec",
