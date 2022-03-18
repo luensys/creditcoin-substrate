@@ -1,6 +1,6 @@
 # Integration tests for Creditcoin Substrate node
 
-## Requirements
+## General setup
 
 ```bash
 sudo apt-get install nodejs npm
@@ -17,10 +17,16 @@ yarn install --immutable
    and execute it locally:
 
 ```bash
-./target/debug/creditcoin-node --dev
+./target/debug/creditcoin-node --dev --mining-key XYZ
 ```
 
-2. Execute this test suite:
+2. Prepare the local development environment:
+
+```bash
+./prepare-devel-env.sh
+```
+
+3. Execute this test suite:
 
 ```bash
 yarn test
